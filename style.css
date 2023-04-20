@@ -1,0 +1,130 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container div{
+    flex-basis: 50%;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+}
+
+header{
+    background-color: #FFD900;
+}
+
+header img{
+    margin: 10px 0px 10px 40px;
+
+}
+
+header img:hover{
+    cursor: pointer;
+}
+
+    #containerText{
+        display: flex;
+        flex-direction: column;
+        background-color: #514988; 
+        text-align: center;
+    }
+
+        #containerText h1{
+            font-size: 390%;
+            color: #F3C61F;
+            margin: 30px 0px 15px 0px;
+        }
+        #containerText h3{
+            font-size: 170%;
+            color: #FFFFFF;
+            margin: 0px 0px 35px 0px;
+        }
+        #containerText p{
+            font-size: 150%;
+            color: #FFFFFF;
+            font-weight: 110;
+        }
+
+.timer{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.timer h1{
+    font-size: 350%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 0px;
+    margin: 30px 0px 0px 0px;
+    color: #514988;
+}
+
+    #video{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+        #video h3{
+            margin: 0px 0px 16px 0px;
+            font-size: 160%;
+            color: #E33881;
+        }
+
+        #video video{
+            width: 97%;
+        }
+
+footer {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:flex-start;
+}
+
+footer h3{
+    color: #F3C61F;
+    margin-left: 35px;
+    margin-bottom: 0;
+}
+
+    #cards{
+        padding: 15px;
+    }
+    #cards img{
+        width: 21%;
+    }
+
+    #cards img:hover{
+        cursor: pointer;
+        transform: scale(1.06);
+    }
+
+button{
+    margin: 0px 30px 0px 0px;
+    width: 500px;
+    height: 100px;
+    border: 0;
+    border-radius: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #514988;
+    font-size: 30px;
+    transform: 1s;
+}
+
+button:hover{
+    color: #FFD900;
+    cursor: pointer;
+    transform: scale(1.1);
+}
